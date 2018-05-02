@@ -2,6 +2,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const router = require.Router();
 
 
 const app = express();
@@ -15,7 +16,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // });
 
-require('./controllers/authController')(app);
+//require('./controllers/authController')(app);
 
+
+
+router.get('/', function(req,res,next){
+    res.render('/views/index.html');
+});
 
 app.listen(3000);
