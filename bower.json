@@ -2,7 +2,8 @@
     "name": "asp.net",
     "private": true,
     "dependencies": {
-     "bootstrap":"latest"
+     "bootstrap":"latest",
+     "highcharts":"6.1.0"
     }
   }
   
