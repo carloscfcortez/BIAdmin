@@ -2,7 +2,7 @@
   "name": "nodejsmongodb",
   "version": "1.0.0",
   "description": "",
-  "main": "./srs/server.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +12,10 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
-    "express": "^4.6.2",
-    "mongoose": "^5.0.9",
     "ejs": "^2.5.9",
+    "express": "^4.6.2",
     "express-ejs-layouts": "^2.4.0",
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "mongoose": "^5.0.9"
   }
 }

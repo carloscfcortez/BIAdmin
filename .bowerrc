@@ -1,0 +1,6 @@
+{
+    "directory": "bower_components", 
+    "proxy": "http://29797:000000tj@proxy.pjmt.local:3128",
+    "https-proxy":"http://29797:000000tj@proxy.pjmt.local:3128",
+    "no-proxy":"localhost"
+  }
