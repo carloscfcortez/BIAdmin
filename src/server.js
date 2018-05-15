@@ -9,8 +9,7 @@ var expressLayouts = require('express-ejs-layouts')
 
 
 var routes = require('./routes/index');
-var admin = require('./routes/admin');
-
+var routeAdmin = require('./routes/admin');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs')    // Setamos que nossa engine será o ejs
@@ -25,11 +24,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes
 app.use('/', routes);
-app.use('/admin', admin);
+app.use('/admin', routeAdmin);
 
 
 
-app.use(function(req,res,next){
+app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
     next(err);
