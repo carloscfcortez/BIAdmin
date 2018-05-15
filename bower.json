@@ -3,7 +3,8 @@
     "private": true,
     "dependencies": {
      "bootstrap":"latest",
-     "highcharts":"6.1.0"
+     "highcharts":"6.1.0",
+     "angular":"1.7.0"
     }
   }
   
